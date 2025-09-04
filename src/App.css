@@ -40,6 +40,21 @@ h4 {
   margin: 0;
   text-transform: uppercase;
 }
+.container-nav-bar{
+  background-color: #9c88ff;
+  width: 100%;
+  height: 20px;
+  
+}
+.container-nav-bar ul{
+  display: flex;
+  list-style: none;
+  padding: 0px 7px;
+
+}
+.container-nav-bar ul li{
+  margin-left: 7px;
+}
 
 .inc-exp-container {
   background-color: #fff;
