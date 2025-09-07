@@ -6,13 +6,14 @@ import TransactionList from "./Components/TransactionList";
 import AddTransaction from "./Components/AddTransaction";
 import { GlobalProvider } from "./context/GlobalState";
 import NavBar from "./Components/NavBar";
+import Footer from "./Components/Footer";
 
 function App() {
   return (
     <>
       <NavBar />
+      <Header />
       <GlobalProvider>
-        <Header />
         <div className="container">
           <Balance />
           <IncomeExpense />
@@ -20,6 +21,7 @@ function App() {
           <AddTransaction />
         </div>
       </GlobalProvider>
+      <Footer />
     </>
   );
 }
